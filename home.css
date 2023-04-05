@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:ital,wght@0,300;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  background-color: #213159;
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  /* background: url(https://media.istockphoto.com/id/481412780/photo/open-bible.jpg?s=612x612&w=0&k=20&c=vkck9LuK6LFJopfbua3k8CIGGcHUE3K_7ryLUn3H6wo=)
+    no repeat scroll center top transparent; */
+  width: 100%;
+  background: url(https://t3.ftcdn.net/jpg/01/39/95/86/360_F_139958657_NUYIFQ9zqrTEVBEbOE3GLkQPNWfZR8af.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "ubuntu";
+  margin: 0;
+  padding: 0;
+  color: #1d2e55;
+}
+
+/* SETTING FONTS */
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 6.5rem;
+  margin-bottom: 2rem;
+  color: #e7e7e7;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+
+/* Utilities */
+
+.container {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  width: 30rem;
+  height: 8rem;
+  text-align: center;
+  border: 0.1rem solid #1d2e55;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #e7e7e7;
+  background: #1d2e55;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
